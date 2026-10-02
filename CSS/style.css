@@ -21,6 +21,7 @@ body{
 p{
     font-family: arial;
     font-size: 16px;
+    text-align: center;
 }
 
 h1{
@@ -54,10 +55,10 @@ footer{
 .container{
     width: 90%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     height: auto;
     padding: 20px;
-    background-color: #ebe7e7;
+    background-color: #d0b79b;
     text-align: justify;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -78,10 +79,8 @@ header img{
     background-size: cover;
     width: 100%;
 }
-
 h1, h2, h3{
-    color: 
-    #82865B ;
+    color: #58111a ;
 }
 a{
     color: #82865B;

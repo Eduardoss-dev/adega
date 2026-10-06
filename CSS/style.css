@@ -21,6 +21,14 @@ li{
     text-align: justify;
 }
 
+figcaption{
+    font-family: arial;
+    font-size: 16px;
+    text-align: center;
+}
+#roda{
+    color: #f1efc6d2;
+}
 p{
     font-family: arial;
     font-size: 16px;
@@ -41,6 +49,10 @@ h3{
      font-family: Arial;
      font-size: 18;
 }
+h4{
+    font-family: Arial;
+    font-size: 16px;
+}
 
 figure{
     text-align: center;
@@ -57,6 +69,15 @@ ul {
     margin-left: 20px;
     padding-left: 0;
     text-align: justify;
+}
+li {
+    margin-left: 20px;
+    padding-left: 0;
+    text-align: justify;
+}
+#titulo{
+    text-align: center;
+    color: #58111a;
 }
 
 .container{
@@ -89,6 +110,9 @@ header img{
 h1, h2, h3{
     color: #58111a ;
 }
+h4{
+    color: #8B0000 ;
+}
 a{
     color: #82865B;
     text-decoration: none;
@@ -113,6 +137,10 @@ iframe{
     width: 90%;
     height: 30%;
     opacity: 0.7;
+}
+.fontes a:hover{
+    color: #58161a;
+    
 }
 a:hover{
     color: #d0b79b

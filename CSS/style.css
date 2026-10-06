@@ -16,7 +16,10 @@ body{
     background-size: cover;
     background-position: center;
 }
-
+li{
+    
+    text-align: justify;
+}
 
 p{
     font-family: arial;
@@ -85,7 +88,51 @@ h1, h2, h3{
 a{
     color: #82865B;
     text-decoration: none;
+    font-size: 25px
 }
+
+.imagens-site{
+    border-radius: 20px;
+    width: 90%;
+    height: 30%;
+    
+    
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.imagens-site:hover{
+    border-radius: 20px;
+    width: 90%;
+    height: 30%;
+    opacity: 0.7;
+}
+a:hover{
+    color: #d0b79b
+    
+}
+    
+#grid-conteudo{
+    background-color: d0b79b;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid div{
+    background-color: #d0b79b;
+    text-align: center;
+    padding: 2px;
+}
+
 
 .imagem-conteudo{
     border-radius: 20px;
@@ -105,7 +152,57 @@ a{
 }
 footer{
     background-color:#7A0000;
-    color: black;
+    color:#f1efc6d2;
     font-family: arial;
     text-align: center;
+}
+.menu-footer{
+    font-size: 10px;
+}
+@media(min-width:280px) and (max-width:450px){
+    .imagens-site{
+        border-radius: 20px;
+        width: 90%;
+        height: 30%;
+    }
+}
+
+/*css grid Leonardo*/
+
+/* Grid da página de produtos */
+
+.container-produtos {
+    max-width: 1000px;
+    text-align: center;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.produto {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.produto-img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.produto-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.produto-img img:hover {
+    transform: scale(1.1);
 }

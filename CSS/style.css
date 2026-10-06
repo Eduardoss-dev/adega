@@ -109,3 +109,43 @@ footer{
     font-family: arial;
     text-align: center;
 }
+
+/*css grid Leonardo*/
+
+/* Grid da página de produtos */
+
+.container-produtos {
+    max-width: 1000px;
+    text-align: center;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.produto {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.produto-img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.produto-img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.produto-img img:hover {
+    transform: scale(1.1);
+}

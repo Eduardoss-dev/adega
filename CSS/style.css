@@ -149,3 +149,43 @@ footer{
 .produto-img img:hover {
     transform: scale(1.1);
 }
+
+/* Portfólio*/
+
+.container-portfolio {
+    max-width: 800px;
+    text-align: center;
+}
+
+.integrante {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.integrante img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #7A0000;
+}
+
+.integrante-texto h2 {
+    margin-bottom: 4px;
+}
+
+.integrante-texto h3 {
+    color: #82865B;
+    margin-bottom: 8px;
+}
+
+.integrante-texto p {
+    text-align: left;
+}
+
